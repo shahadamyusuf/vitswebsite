@@ -85,14 +85,21 @@ nav .vitslogo{
     height: 100vh;
 }
 
+/* FIRST SECTION */
 .first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url(img/VITSBG2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
+    color: white;
 }
 
-/*SECTION more*/
+
+/* SECOND SECTION */
 .second{
     background-image: none;
     background-color: black;
